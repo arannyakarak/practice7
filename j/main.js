@@ -90,6 +90,7 @@ function addCard(){
     <div class="airq"> 
     <div class="wind-icon"><img src="asset/wind.png" alt="${weather[0].main} icon"></div>
     <div class="air">AQI: ${data.aqi}%</div>
+    <div class="air">geo: ${data.geo}%</div>
     </div> 
 </div>`;
 

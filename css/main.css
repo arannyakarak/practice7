@@ -32,7 +32,7 @@ form #city-input{
     border-top:0;
     border-left:0; 
     border-right:0;
-    border-bottom:0.25rem solid rgb(25, 0, 255);
+    border-bottom:0.25rem solid rgb(24, 5, 189);
 }
 
 form #city-input:focus{
@@ -79,6 +79,7 @@ form #search-btn:focus{
     border:0;
 }
 .weather-card{
+    color: #b9d1f1;
     width:12rem;
     /* height:12rem; */
     height: auto;
@@ -87,7 +88,7 @@ form #search-btn:focus{
     grid-template-rows:repeat(5, 3rem);
     grid-template-columns:5rem 9rem;
     text-align:left; 
-    background: rgba(255, 255, 255, 0.07);
+    background: rgba(50, 50, 233, 0.5);
     border-radius: 0.7rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.7px);
