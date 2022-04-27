@@ -85,7 +85,7 @@ form #search-btn:focus{
     height: auto;
     display:grid;
     margin:0.5rem 0.5rem 0.5rem 0.05rem;
-    grid-template-rows:repeat(5, 3rem);
+    grid-template-rows:repeat(6, 3rem);
     grid-template-columns:5rem 9rem;
     text-align:left; 
     background: rgba(50, 50, 233, 0.5);
@@ -199,6 +199,12 @@ form #search-btn:focus{
     text-align:top;
     grid-row:5;
     grid-column:2/3;
+    padding-left:0.5rem;
+}
+.sta{
+    text-align:top;
+    grid-row:6;
+    /* grid-column:2/3; */
     padding-left:0.5rem;
 }
 
