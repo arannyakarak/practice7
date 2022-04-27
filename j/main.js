@@ -75,7 +75,7 @@ async function fetchLattLong(city){
 function addCard(){
     numberOfCards ++;
     var {name, main, sys, wind, weather} = result;
-    var {data} = res;
+    var {data, status} = res;
 
     let newCard = `<div class="weather-card" id="card-${numberOfCards}">
     <button class="card-pin" onClick="deleteCard('card-${numberOfCards}')"></button>
@@ -90,8 +90,9 @@ function addCard(){
     <div class="airq"> 
     <div class="wind-icon"><img src="asset/wind.png" alt="${weather[0].main} icon"></div>
     <div class="air">AQI: ${data.aqi}%</div>
-   
+    
     </div> 
+    <div class="sta">Status: ${status}</div>
 </div>`;
 
     weatherDisplay.insertAdjacentHTML("afterbegin",newCard);
