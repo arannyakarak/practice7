@@ -88,7 +88,7 @@ function addCard(){
     <div class="wind-speed">Wind speed: ${wind.speed}m/s</div>
     <div class="humidity">Humidy: ${main.humidity}%</div>
     <div class="airq"> 
-    <div class="wind-icon"><img src="asset/wind.png" alt="${weather[0].main} icon"></div>
+    
     <div class="air">AQI: ${data.aqi}%</div>
     
     </div> 
