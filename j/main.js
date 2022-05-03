@@ -101,5 +101,3 @@ function addCard(){
     formInput.focus();
 }
 
-
-
